@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/srm-vision.dir/main.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/camera-dh/camera_dh.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/camera-hik/camera_hik.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/cmdline-arg-parser/cmdline_arg_parser.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/controller-hero/controller_hero.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/controller-infantry/controller_test.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/controller-sentry-lower/controller_sentry_lower.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/controller-test/controller_test.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/debug-tools/trackbar.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/detector-armor/detector_armor.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/detector-rune-debug/detector_rune_debug.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/detector-rune/detector_rune.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/digital-twin/battlefield.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/machine.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/machine_operation_event.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/machine_set.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/machine_set_handler.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/machine_type.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/state.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/timeout_event.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/timeout_predicate.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/fsm-base/transition.cc.o"
+  "CMakeFiles/srm-vision.dir/modules/image-provider-camera/image_provider_camera.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/image-provider-video/image_provider_video.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/predictor-armor-debug/predictor_armor_debug.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/predictor-armor/predictor_armor.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/predictor-armor/predictor_fsm.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/predictor-outpost/predictor-outpost.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/predictor-rune/predictor_rune.cpp.o"
+  "CMakeFiles/srm-vision.dir/modules/serial/serial.cpp.o"
+  "CMakeFiles/srm-vision.dir/opt/TensorRT-7.2.3.4/samples/common/logger.cpp.o"
+  "srm-vision"
+  "srm-vision.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/srm-vision.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
